@@ -26,6 +26,11 @@ android {
         }
     }
 
+    android.applicationVariants.all { final variant ->
+        variant.outputs.all {
+            outputFileName = "MRSettings_v${variant.versionName}.apk"
+        }
+    }
 
     lintOptions {
         disable 'MissingTranslation'
