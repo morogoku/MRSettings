@@ -13,9 +13,9 @@
     <!-- Global configuration -->
 
     <string name="grxs_app_name">MRSettings v2</string>
-    <bool name="grxb_demo_mode">true</bool> <!-- DEMO MODE - set to false to run your app : the app will take rom_tabs_names and rom_tabs_layouts for rom info, and rom_navigation_screens as navigation menu. Use values-rom or similar to add your arrays, strings, integers, etc.. to have your code clearer -->
+    <bool name="grxb_demo_mode">false</bool> <!-- DEMO MODE - set to false to run your app : the app will take rom_tabs_names and rom_tabs_layouts for rom info, and rom_navigation_screens as navigation menu. Use values-rom or similar to add your arrays, strings, integers, etc.. to have your code clearer -->
 
-    <bool name="grxb_global_enable_settingsdb">false</bool> <!-- set to true when running your app when you want to save values in settings. This is a main switch. Use false when you are playing configuring preferences for not to mess your settings -->
+    <bool name="grxb_global_enable_settingsdb">true</bool> <!-- set to true when running your app when you want to save values in settings. This is a main switch. Use false when you are playing configuring preferences for not to mess your settings -->
 <!-- grxb_saveSettings_default is a preference attribute. Set by default to true for not to have to  declare that attribute on every pref. Play with this two bools when doing tests -->
     <bool name="grxb_saveSettings_default">true</bool> <!-- saveSettings preference attribute value -->
     <!-- user options default values -->
