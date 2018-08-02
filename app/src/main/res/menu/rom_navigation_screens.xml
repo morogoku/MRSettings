@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Text android:icon="@drawable/demo_icon_info" android:id="@+id/demo_categories_infotext" android:title="Category and info" app:showIconSpace="false" />
+
+	<Text android:icon="@drawable/ic_power_settings" android:id="@+id/rom_power_menu"  android:title="@string/power_menu_mods" app:showIconSpace="false" />
 </menu>

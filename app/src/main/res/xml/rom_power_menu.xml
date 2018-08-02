@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grx="http://schemas.android.com/apk/res-auto">
+
+
+    <GrxPreferenceCategory android:title="@string/toggles_selection_position"/>
+
+    <GrxSelectSortItems  android:title="@string/select_sort_toggles"   android:defaultValue="power|datamode|airplane|restart|recovery|"
+        android:key="b_ga_deftoggles"
+        grx:optionsArray="@array/powermenu_toggle_list"
+        grx:valuesArray="@array/powermenu_toggle_values" />
+
+    <GrxMultipleSelection android:title="@string/toggles_confirmation" android:key="b_ga_confirmation"
+        grx:arrowColor="?complementary_color4" android:defaultValue="restart|power|download|recovery|"
+        grx:optionsArray="@array/powermenu_confirmation_list"  grx:valuesArray="@array/powermenu_confirmation_values"/>
+
+
+    <GrxButtonPreference android:title="" android:key="btn_pow1" grx:button_Style="big" grx:groupKey="gk_globalactions"  grx:button_Text="@string/press_to_apply_pow_conf" />
+
+    <GrxPreferenceCategory android:key="cust_cat" grx:depRule="ENABLE#b_ga_deftoggles#STRING#(grxcustom)" android:title="@string/custom_toggle" >
+
+        <GrxSingleSelection android:title="@string/custom_toggle_icon" android:key="b_ga_ct_drawable"
+            grx:arrowColor="?complementary_color1"
+            grx:optionsArray="@array/custom_toggle_icons_values"  grx:valuesArray="@array/custom_toggle_icons_values"
+            grx:iconsArray="@array/custom_toggle_icons" grx:iconsValueTint="?colorAccent"/>
+
+
+        <GrxEditText android:title="@string/custom_toggle_text" android:key="b_ga_ct_text" android:summary="%" android:defaultValue="My Custom Text" grx:arrowColor="?complementary_color5" />
+
+        <GrxAccess android:title="@string/custom_toggle_action" android:key="b_ga_ct_action" android:summary="Select a shortcut, app, activity or customized action"
+            grx:showShortcuts="true" grx:showApplications="true" grx:showActivities="true" grx:iconsValueTint="?complementary_color1"
+            />
+
+        <GrxButtonPreference android:title="" android:key="btn_pow2" grx:button_Style="big" grx:groupKey="gk_globalactions"  grx:button_Text="@string/press_to_apply_custom_toggle" />
+
+    </GrxPreferenceCategory>
+
+
+
+    <GrxPreferenceCategory android:title="@string/stock_effects"/>
+
+    <GrxSeekBar  grx:seekbarColor="?complementary_color2" grx:showPopup="true"  android:title="@string/dim_amount_percentage"
+           android:summary="@string/dim_amount_percentage_sum" grx:groupKey="gk_globalactions"
+        android:key="b_ga_dim_intensity" android:defaultValue="100"
+        grx:minValue="0" grx:maxValue="100" grx:units=" %" grx:interval="1" />
+    <GrxSeekBar  grx:seekbarColor="?complementary_color2" grx:showPopup="true"  android:title="@string/stock_blur_amount" grx:groupKey="gk_globalactions"
+    android:key="b_ga_blur" android:defaultValue="15"
+    grx:minValue="0" grx:maxValue="60" grx:units=" %" grx:interval="1" />
+
+    <GrxButtonPreference android:title="" android:key="btn_pow3" grx:button_Style="big" grx:groupKey="gk_globalactions"  grx:button_Text="@string/press_to_apply_pow_stockeffects" />
+
+    <GrxPreferenceCategory android:title="@string/custom_bg_image"/>
+
+    <GrxSwitchPreference android:title="@string/use_custom_bg"  android:key="b_ga_bgimage_enable"  android:defaultValue="false" />
+    <GrxPickImage android:title="@string/select_custom_bg" android:key="b_ga_bgimage_uri"
+        android:dependency="b_ga_bgimage_enable"  grx:sizeX="720" grx:sizeY="1280" />
+    <GrxColorPicker android:title="@string/select_custom_bg_tint_color" android:key="b_ga_bgimage_tintcolor"
+        android:dependency="b_ga_bgimage_enable" android:defaultValue="0x00000000" grx:showAlphaSlider="true" grx:showAutoButton="true"  />
+    <GrxSeekBar  grx:seekbarColor="?complementary_color2" grx:showPopup="true"  android:title="@string/custom_image_blur"
+        android:key="b_ga_bgimage_blur" android:defaultValue="15" android:dependency="b_ga_bgimage_enable"
+        grx:minValue="0" grx:maxValue="25" grx:units=" px" grx:interval="1" />
+    <GrxButtonPreference android:title="" android:key="btn_pow4" grx:button_Style="big" grx:groupKey="gk_globalactions_bgimage"  grx:button_Text="@string/press_to_apply_custom_bg" />
+
+    <GrxPreferenceCategory android:title="@string/custom_toggles_texts_color"/>
+
+
+    <GrxSwitchPreference android:title="@string/enable_custom_toggles_texts_color"  android:key="b_ga_enable_iconcolors"
+        grx:groupKey="gk_globalactions" android:defaultValue="false" />
+    <GrxButtonPreference android:dependency="b_ga_enable_iconcolors" android:title="" android:key="btn_pow5" grx:button_Style="big" grx:groupKey="gk_globalactions"  grx:button_Text="@string/press_to_apply_custom_colors" />
+    <GrxPerItemColor
+        android:title="@string/toggles_colors_dark_bg" android:key="b_ga_iconscolors_db" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/powermenu_toggle_list" grx:valuesArray="@array/powermenu_toggle_values" android:dependency="b_ga_enable_iconcolors"
+        android:defaultValue="power/-638655|datamode/-14443038|airplane/-14235137|restart/-8537576|recovery/-11439361|flashlight/-46779|download/-3045632|emergencymode/-964536|screenshot/-7680|screenrecord/-15298897|settings/-16758284|voiceassist/-775680|assist/-747008|soundmode/-742656|grxcustom/-3378469|"
+
+        />
+
+    <GrxPerItemColor
+        android:title="@string/toggles_colors_light_bg" android:key="b_ga_iconscolors_lb" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/powermenu_toggle_list" grx:valuesArray="@array/powermenu_toggle_values" android:dependency="b_ga_enable_iconcolors"
+        android:defaultValue="power/-638655|datamode/-14443038|airplane/-14235137|restart/-8537576|recovery/-11439361|flashlight/-46779|download/-3045632|emergencymode/-964536|screenshot/-7680|screenrecord/-15298897|settings/-16758284|voiceassist/-775680|assist/-747008|soundmode/-742656|grxcustom/-3378469|"
+
+        />
+
+    <GrxCheckBoxPreference android:dependency="b_ga_enable_iconcolors" android:title="@string/main_text_color_as_toggle"  android:key="b_ga_sameiconcolor"   android:defaultValue="true" />
+
+    <GrxColorPicker android:title="@string/main_text_color_dark" android:key="b_ga_msgcolor_db"
+        android:defaultValue="0xfffafafa" grx:showAlphaSlider="true" grx:showAutoButton="true" grx:depRule="DISABLE#b_ga_sameiconcolor#BOOLEAN#true"  />
+
+    <GrxColorPicker android:title="@string/main_text_color_light" android:key="b_ga_msgcolor_lb" grx:depRule="DISABLE#b_ga_sameiconcolor#BOOLEAN#true"
+        android:defaultValue="0xff252525" grx:showAlphaSlider="true" grx:showAutoButton="true"  />
+
+    <GrxColorPicker android:title="@string/status_text_color_dark" android:key="b_ga_statecolor_db" android:dependency="b_ga_enable_iconcolors"
+        android:defaultValue="0xfffafafa" grx:showAlphaSlider="true" grx:showAutoButton="true"  />
+
+    <GrxColorPicker android:title="@string/status_text_color_light" android:key="b_ga_statecolor_lb" android:dependency="b_ga_enable_iconcolors"
+        android:defaultValue="0xff666666" grx:showAlphaSlider="true" grx:showAutoButton="true"  />
+
+    <GrxButtonPreference android:dependency="b_ga_enable_iconcolors" android:title="" android:key="btn_pow6" grx:button_Style="big" grx:groupKey="gk_globalactions"  grx:button_Text="@string/press_to_apply_custom_colors" />
+</PreferenceScreen>

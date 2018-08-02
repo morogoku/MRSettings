@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="power_menu_mods">Mods en Menu Power</string>
+    <string name="toggles_selection_position">Selección Toggles y posiciones</string>
+    <string name="select_sort_toggles">Selecciona y ordena toggles</string>
+    <string name="toggles_confirmation">Toggles con confirmación</string>
+    <string name="custom_toggle">Configura Toggle Personalizado</string>
+    <string name="custom_toggle_icon">Icono Toggle Personalizado</string>
+    <string name="custom_toggle_text">Texto en Toggle Personalizado</string>
+    <string name="custom_toggle_action">Selecciona App, Act., o shortcut</string>
+    <string name="stock_effects">Efectos Stock</string>
+    <string name="dim_amount_percentage">Porcentaje oscurecimiento</string>
+    <string name="dim_amount_percentage_sum">Se aplica en todos los casos</string>
+    <string name="stock_blur_amount">Cantidad Desenfoque en Bg Stock</string>
+    <string name="custom_bg_image">Imagen de fondo</string>
+    <string name="use_custom_bg">Usar imagen de fondo</string>
+    <string name="select_custom_bg">Selecciona la imagen de fondo</string>
+    <string name="select_custom_bg_tint_color">Color tintado Imagen de Fondo</string>
+    <string name="custom_image_blur">Radio desenfoque en imagen</string>
+    <string name="custom_toggles_texts_color">Colores de Iconos y Textos</string>
+    <string name="enable_custom_toggles_texts_color">Habilitar personalización colores</string>
+    <string name="toggles_colors_light_bg">Color Iconos en Fondos claros</string>
+    <string name="toggles_colors_dark_bg">Color Iconos en fondos oscuros</string>
+    <string name="main_text_color_as_toggle">Usar color icono para texto ppal.</string>
+    <string name="main_text_color_light">Color Texto ppal en fondos claros</string>
+    <string name="main_text_color_dark">Color texto ppal en fondos oscuros</string>
+    <string name="status_text_color_dark">Texto estado/sec. en fondos claros</string>
+    <string name="status_text_color_light">Texto estado/sec. en fondos oscuros</string>
+    <string name="press_to_apply_pow_conf">Pulsa para aplicar configuración</string>
+    <string name="press_to_apply_pow_stockeffects">Pulsa para aplicar efectos</string>
+    <string name="press_to_apply_custom_toggle">Pulsa para aplicar personalización</string>
+    <string name="press_to_apply_custom_bg">Pulsa para aplicar colores</string>
+    <string name="press_to_apply_custom_colors">Pulsa para aplicar colores</string>
+
+    <string name="togg_power">Apagar</string>
+    <string name="togg_data_mode">Modo de Datos</string>
+    <string name="togg_airplane">Modo Avión</string>
+    <string name="togg_restart">Reiniciar</string>
+    <string name="togg_recovery">Modo Recovery</string>
+    <string name="togg_flashlight">Luz de Flash</string>
+    <string name="togg_download">Modo Download</string>
+    <string name="togg_emergency">Modo emergencia</string>
+    <string name="togg_screenshot">Captura pantalla</string>
+    <string name="togg_screenrecor">Grabación Pantalla</string>
+    <string name="togg_settings">Ajustes</string>
+    <string name="togg_voiceassist">Asistente Voz</string>
+    <string name="togg_google">Asistente Google</string>
+    <string name="togg_soundmode">Modo Sonido</string>
+    <string name="togg_custom">Toggle personalizado</string>
+
+</resources>

@@ -13,4 +13,158 @@
     </string-array>
 
 
+    <!-- Strings -->
+    <string name="power_menu_mods">Power Menu Mods</string>
+    <string name="toggles_selection_position">Toggles Selection and positions</string>
+    <string name="select_sort_toggles">Select and Sort Toggles</string>
+    <string name="toggles_confirmation">Toggles with confirmation</string>
+    <string name="custom_toggle">Configure Custom Toggle</string>
+    <string name="custom_toggle_icon">Custom Toggle Icon</string>
+    <string name="custom_toggle_text">Custom Toggle Text</string>
+    <string name="custom_toggle_action">Select App, Act., or shortcut</string>
+    <string name="stock_effects">Stock Effects</string>
+    <string name="dim_amount_percentage">Dim Amount Percentage</string>
+    <string name="dim_amount_percentage_sum">Apply both stock and custom bg</string>
+    <string name="stock_blur_amount">Stock Background Blur amount</string>
+    <string name="custom_bg_image">Custom Background Image</string>
+    <string name="use_custom_bg">Use Custom Bg Image</string>
+    <string name="select_custom_bg">Select Custom Image</string>
+    <string name="select_custom_bg_tint_color">Custom Image Tint Color</string>
+    <string name="custom_image_blur">Custom Image Blur Ratio</string>
+    <string name="custom_toggles_texts_color">Custom Toggles and Text Colors</string>
+    <string name="enable_custom_toggles_texts_color">Enable Custom Colors</string>
+    <string name="toggles_colors_light_bg">Toggles Colors in Light Bgs</string>
+    <string name="toggles_colors_dark_bg">Toggles Colors in Dark Bgs</string>
+    <string name="main_text_color_as_toggle">Same toggle color for main text</string>
+    <string name="main_text_color_light">Main text colors in light bgs</string>
+    <string name="main_text_color_dark">Main text colors in dark bgs</string>
+    <string name="status_text_color_dark">Status/Second. text colors in dark bgs</string>
+    <string name="status_text_color_light">Status/Second. text colors in dark bgs</string>
+    <string name="press_to_apply_pow_conf">Press to apply toggle configuration</string>
+    <string name="press_to_apply_pow_stockeffects">Press to apply stock effects</string>
+    <string name="press_to_apply_custom_toggle">Press to apply custom toggle config</string>
+    <string name="press_to_apply_custom_bg">Press to apply custom bg image options</string>
+    <string name="press_to_apply_custom_colors">Press to apply custom colors</string>
+
+    <string name="togg_power">Power</string>
+    <string name="togg_data_mode">Data Mode</string>
+    <string name="togg_airplane">Airplane Mode</string>
+    <string name="togg_restart">Restart</string>
+    <string name="togg_recovery">Recovery Mode</string>
+    <string name="togg_flashlight">Flash Light</string>
+    <string name="togg_download">Download Mode</string>
+    <string name="togg_emergency">Emergency Mode</string>
+    <string name="togg_screenshot">Screen Capture</string>
+    <string name="togg_screenrecor">Screen Recording</string>
+    <string name="togg_settings">Settings</string>
+    <string name="togg_voiceassist">Voice Assistant</string>
+    <string name="togg_google">Google Assistant</string>
+    <string name="togg_soundmode">Sound Mode</string>
+    <string name="togg_custom">Custom Toggle</string>
+
+
+    <!-- String Array -->
+    <string-array name="powermenu_toggle_list">
+        <item>@string/togg_power</item>
+        <item>@string/togg_data_mode</item>
+        <item>@string/togg_airplane</item>
+        <item>@string/togg_restart</item>
+        <item>@string/togg_recovery</item>
+        <item>@string/togg_flashlight</item>
+        <item>@string/togg_download</item>
+        <item>@string/togg_emergency</item>
+        <item>@string/togg_screenshot</item>
+        <item>@string/togg_screenrecor</item>
+        <item>@string/togg_settings</item>
+        <item>@string/togg_voiceassist</item>
+        <item>@string/togg_google</item>
+        <item>@string/togg_soundmode</item>
+        <item>@string/togg_custom</item>
+    </string-array>
+
+    <string-array name="powermenu_toggle_values">
+        <item>power</item>
+        <item>datamode</item>
+        <item>airplane</item>
+        <item>restart</item>
+        <item>recovery</item>
+        <item>flashlight</item>
+        <item>download</item>
+        <item>emergencymode</item>
+        <item>screenshot</item>
+        <item>screenrecord</item>
+        <item>settings</item>
+        <item>voiceassist</item>
+        <item>assist</item>
+        <item>soundmode</item>
+        <item>grxcustom</item>
+    </string-array>
+
+    <string-array name="powermenu_confirmation_list">
+        <item>@string/togg_restart</item>
+        <item>@string/togg_power</item>
+        <item>@string/togg_download</item>
+        <item>@string/togg_recovery</item>
+    </string-array>
+
+    <string-array name="powermenu_confirmation_values">
+        <item>restart</item>
+        <item>power</item>
+        <item>download</item>
+        <item>recovery</item>
+    </string-array>
+
+
+    <!-- Arrays-->
+    <array name="custom_toggle_icons_values">
+        <item>grx_pow_custom0</item>
+        <item>grx_pow_custom1t</item>
+        <item>grx_pow_custom2t</item>
+        <item>grx_pow_custom3</item>
+        <item>grx_pow_custom4</item>
+        <item>grx_pow_custom5</item>
+        <item>grx_pow_custom6</item>
+        <item>grx_pow_custom7</item>
+        <item>grx_pow_custom8</item>
+        <item>grx_pow_custom9</item>
+        <item>grx_pow_custom10</item>
+        <item>grx_pow_custom11</item>
+        <item>grx_pow_custom12</item>
+        <item>grx_pow_custom13</item>
+        <item>grx_pow_custom14</item>
+        <item>grx_pow_custom15</item>
+        <item>grx_pow_custom16</item>
+        <item>grx_pow_custom17</item>
+        <item>grx_pow_custom18</item>
+        <item>grx_pow_custom19</item>
+        <item>grx_pow_custom20</item>
+        <item>grx_pow_custom21</item>
+    </array>
+
+    <array name="custom_toggle_icons">
+        <item>@drawable/grx_pow_custom0</item>
+        <item>@drawable/grx_pow_custom1t</item>
+        <item>@drawable/grx_pow_custom2t</item>
+        <item>@drawable/grx_pow_custom3</item>
+        <item>@drawable/grx_pow_custom4</item>
+        <item>@drawable/grx_pow_custom5</item>
+        <item>@drawable/grx_pow_custom6</item>
+        <item>@drawable/grx_pow_custom7</item>
+        <item>@drawable/grx_pow_custom8</item>
+        <item>@drawable/grx_pow_custom9</item>
+        <item>@drawable/grx_pow_custom10</item>
+        <item>@drawable/grx_pow_custom11</item>
+        <item>@drawable/grx_pow_custom12</item>
+        <item>@drawable/grx_pow_custom13</item>
+        <item>@drawable/grx_pow_custom14</item>
+        <item>@drawable/grx_pow_custom15</item>
+        <item>@drawable/grx_pow_custom16</item>
+        <item>@drawable/grx_pow_custom17</item>
+        <item>@drawable/grx_pow_custom18</item>
+        <item>@drawable/grx_pow_custom19</item>
+        <item>@drawable/grx_pow_custom20</item>
+        <item>@drawable/grx_pow_custom21</item>
+    </array>
+
+
 </resources>
