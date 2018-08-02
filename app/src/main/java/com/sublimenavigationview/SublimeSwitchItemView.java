@@ -25,7 +25,7 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.widget.SwitchCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * View implementation for Switch menu item.
  *

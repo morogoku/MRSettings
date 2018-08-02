@@ -21,7 +21,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Sub-classed TextView that responds to custom states &amp; style attrs.
  */

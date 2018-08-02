@@ -23,9 +23,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.grx.settings.R;
-import com.grx.settings.prefssupport.PrefAttrsInfo;
-import com.grx.settings.utils.Common;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.prefssupport.PrefAttrsInfo;
+import com.moro.mrsettings.utils.Common;
 
 public class GrxInfoText extends GrxBasePreference{
 

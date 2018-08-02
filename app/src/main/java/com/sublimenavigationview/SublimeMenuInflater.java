@@ -28,8 +28,8 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 
-import com.grx.settings.R;
-import com.grx.settings.utils.BPRulesUtils;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.utils.BPRulesUtils;
 
 /**
  * Custom menu inflater.

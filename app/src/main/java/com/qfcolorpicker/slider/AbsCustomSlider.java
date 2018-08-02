@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 public abstract class AbsCustomSlider extends View {
 	protected Bitmap bitmap;

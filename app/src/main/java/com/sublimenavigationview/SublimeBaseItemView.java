@@ -27,7 +27,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Base ViewGroup for all menu item types.
  */

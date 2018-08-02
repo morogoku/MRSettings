@@ -11,7 +11,7 @@
         grx:killpackage="com.android.systemui" grx:confirmKillpackage="true"/>
 
     <GrxButtonPreference android:title="Kill this app" android:summary="No confirmation required" grx:button_Style="small"
-        grx:button_Text="Kill GrxSettings"  grx:killpackage="com.grx.settings" grx:confirmKillpackage="false"/>
+        grx:button_Text="Kill GrxSettings"  grx:killpackage="com.moro.mrsettings" grx:confirmKillpackage="false"/>
     <GrxInfoText android:summary="Reboot Phone" />
     <GrxInfoText android:summary="You can reboot your phone on preference´s change. A confirmation dialog is shown by default, but you could reboot without confirmation"/>
     <GrxColorPicker android:title="Demo reboot" android:key="cpicker_3" android:summary="No auto button, circle"

@@ -24,12 +24,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
-import com.grx.settings.prefssupport.OnClickRuleHelper;
-import com.grx.settings.utils.Common;
-import com.grx.settings.prefssupport.PrefAttrsInfo;
-import com.grx.settings.utils.GrxPrefsUtils;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.prefssupport.OnClickRuleHelper;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.prefssupport.PrefAttrsInfo;
+import com.moro.mrsettings.utils.GrxPrefsUtils;
 
 
 public class GrxSwitchPreference extends SwitchPreference implements GrxPreferenceScreen.CustomDependencyListener {

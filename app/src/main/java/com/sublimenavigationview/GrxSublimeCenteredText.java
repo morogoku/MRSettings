@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.ProgressBar;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 
 /*

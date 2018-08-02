@@ -24,11 +24,11 @@
     <GrxPreferenceCategory grx:depRule="DISABLE#seekbar_dep_2#INT#600,950,1150"
                 android:key="cat_dep_1" android:title="Hidden Category" grx:hiddenCategory="true">
         <PreferenceScreen android:title="Nested dep 1">
-            <GrxInfoText android:summary="If the selected package name contains com.grx.settings or com.android.settings, the checkbox should be enabled" />
+            <GrxInfoText android:summary="If the selected package name contains com.moro.mrsettings or com.android.settings, the checkbox should be enabled" />
             <GrxAppSelection android:title="GrxSelectApp dep 1" android:key="selectapp_dep_1" android:summary="Grx" 
-                android:defaultValue="com.grx.settings" />
+                android:defaultValue="com.moro.mrsettings" />
             <GrxCheckBoxPreference android:title="CheckBox dep 1" android:key="checkbox_dep_1" android:defaultValue="true"
-                grx:depRule="ENABLE#selectapp_dep_1#STRING#(com.grx.settings),(com.android.settings)" android:summaryOn="Summary On" android:summaryOff="Summary Off"  />
+                grx:depRule="ENABLE#selectapp_dep_1#STRING#(com.moro.mrsettings),(com.android.settings)" android:summaryOn="Summary On" android:summaryOff="Summary Off"  />
 
         </PreferenceScreen>
 

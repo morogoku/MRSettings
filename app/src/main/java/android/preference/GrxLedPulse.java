@@ -22,11 +22,11 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
-import com.grx.settings.prefs_dlgs.DlgFrAppLedPulse;
-import com.grx.settings.utils.Common;
-import com.grx.settings.utils.GrxPrefsUtils;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.prefs_dlgs.DlgFrAppLedPulse;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.utils.GrxPrefsUtils;
 import com.qfcolorpicker.CircleColorDrawable;
 
 import java.util.regex.Pattern;

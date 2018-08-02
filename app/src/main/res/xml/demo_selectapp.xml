@@ -6,7 +6,7 @@
 
     <GrxAppSelection android:title="Default app - save activity" android:key="selectapp_4"
         android:summary="Default is GrxSettings"
-        android:defaultValue="com.grx.settings/com.grx.settings.GrxSettingsActivity" grx:saveActivityname="true" />
+        android:defaultValue="com.moro.mrsettings/com.moro.mrsettings.GrxSettingsActivity" grx:saveActivityname="true" />
 
 
     <GrxAppSelection android:title="Select App - save activity name" android:key="selectapp_0" android:summary="Select an app"
@@ -36,5 +36,5 @@
     <GrxMultipleAppSelection android:title="User apps, 1 defval, Act,  max 5" android:key="mulselectapp_11b" android:summary="user apps, max 5, default value, save act name"
         android:icon="@drawable/demo_icon_1" grx:iconTint="?colorAccent"
         grx:showSystemapps="false" grx:maxChoices="5"
-        grx:saveActivityname="true" android:defaultValue="com.grx.settings/com.grx.settings.GrxSettingsActivity|"/>
+        grx:saveActivityname="true" android:defaultValue="com.moro.mrsettings/com.moro.mrsettings.GrxSettingsActivity|"/>
 </PreferenceScreen>

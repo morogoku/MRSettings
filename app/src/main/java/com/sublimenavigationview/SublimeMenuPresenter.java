@@ -29,7 +29,7 @@ import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Presenter used to display a SublimeMenu.
  *

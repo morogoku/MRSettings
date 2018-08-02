@@ -30,7 +30,7 @@ import android.view.animation.Interpolator;
 import android.widget.AbsListView;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 import com.nineoldandroids.view.ViewHelper;
 import com.nineoldandroids.view.ViewPropertyAnimator;

@@ -23,7 +23,7 @@ import com.qfcolorpicker.renderer.ColorWheelRenderOption;
 import com.qfcolorpicker.renderer.ColorWheelRenderer;
 import com.qfcolorpicker.slider.AlphaSlider;
 import com.qfcolorpicker.slider.LightnessSlider;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 import java.util.ArrayList;
 

@@ -24,7 +24,7 @@ import android.util.Log;
 import android.util.TypedValue;
 
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Keeps track of TextView styling based
  * on its role: Item, Hint, Group header etc.

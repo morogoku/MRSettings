@@ -20,7 +20,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * View implementation for Separator menu item.
  *

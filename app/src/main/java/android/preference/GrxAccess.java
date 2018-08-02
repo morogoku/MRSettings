@@ -21,12 +21,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
 
-import com.grx.settings.prefs_dlgs.DlgFrGrxAccess;
-import com.grx.settings.utils.Common;
-import com.grx.settings.utils.GrxPrefsUtils;
+import com.moro.mrsettings.prefs_dlgs.DlgFrGrxAccess;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.utils.GrxPrefsUtils;
 
 import java.io.File;
 import java.net.URISyntaxException;

@@ -16,11 +16,11 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
 
-import com.grx.settings.prefs_dlgs.DlgFrSelectSortItems;
-import com.grx.settings.utils.Common;
+import com.moro.mrsettings.prefs_dlgs.DlgFrSelectSortItems;
+import com.moro.mrsettings.utils.Common;
 
 import java.util.regex.Pattern;
 

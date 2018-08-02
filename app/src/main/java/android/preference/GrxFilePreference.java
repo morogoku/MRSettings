@@ -16,7 +16,7 @@ package android.preference;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.grx.settings.prefssupport.PrefAttrsInfo;
+import com.moro.mrsettings.prefssupport.PrefAttrsInfo;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

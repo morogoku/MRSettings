@@ -6,7 +6,7 @@ android {
 	//buildToolsVersion "22.0.1"
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId 'com.grx.settings'
+        applicationId 'com.moro.mrsettings'
         minSdkVersion 22
         targetSdkVersion 22
         versionCode 2

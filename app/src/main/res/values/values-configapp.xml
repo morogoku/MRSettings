@@ -4,7 +4,7 @@
 
     <!-- info texts -->
 
-    <string name="gs_rom_name">GrxSettings (change it to your rom name..)</string>
+    <string name="gs_rom_name">MoRoROM</string>
 
 
 
@@ -12,7 +12,7 @@
 
     <!-- Global configuration -->
 
-    <string name="grxs_app_name">GrxSettings v2</string>
+    <string name="grxs_app_name">MRSettings v2</string>
     <bool name="grxb_demo_mode">true</bool> <!-- DEMO MODE - set to false to run your app : the app will take rom_tabs_names and rom_tabs_layouts for rom info, and rom_navigation_screens as navigation menu. Use values-rom or similar to add your arrays, strings, integers, etc.. to have your code clearer -->
 
     <bool name="grxb_global_enable_settingsdb">false</bool> <!-- set to true when running your app when you want to save values in settings. This is a main switch. Use false when you are playing configuring preferences for not to mess your settings -->
@@ -59,7 +59,7 @@
 
     <!-- Common extra Broadcast Action - When the attribute commonBcExtra is found in a pref, after value change a broadcast with this action and
     the extra value will be sent -->
-    <string name="grx_common_extra_broadcast">com.grx.settings</string>
+    <string name="grx_common_extra_broadcast">com.moro.mrsettings</string>
 
 
     <bool name="grxb_confirmKillpackage_default">false</bool>

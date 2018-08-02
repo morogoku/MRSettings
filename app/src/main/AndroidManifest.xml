@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.grx.settings"
+    package="com.moro.mrsettings"
     android:versionCode="1"
-    android:versionName="GrxSettings v2.0">
+    android:versionName="MRSettings v2.0">
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"
         tools:ignore="ProtectedPermissions"/>
@@ -33,7 +33,7 @@
         <meta-data android:name="com.samsung.android.icon_container.has_icon_container" android:value="true"/>
 
         <activity
-            android:name="com.grx.settings.GrxSettingsActivity"
+            android:name="com.moro.mrsettings.GrxSettingsActivity"
             android:label="@string/grxs_app_name"
 
             android:theme="@style/Grx.NoActionBar">
@@ -44,7 +44,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.grx.settings.act.GrxImagePicker"
+            android:name="com.moro.mrsettings.act.GrxImagePicker"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:exported="false"
             android:excludeFromRecents="true">

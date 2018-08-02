@@ -19,7 +19,7 @@ package com.sublimenavigationview;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Sub-classed ImageView that responds to custom states.
  */

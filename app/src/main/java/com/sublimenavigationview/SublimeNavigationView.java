@@ -35,7 +35,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 /**
  * Top level view that hosts a SublimeMenu

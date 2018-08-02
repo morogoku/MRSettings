@@ -24,8 +24,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.grx.settings.R;
-import com.grx.settings.utils.Common;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.utils.Common;
 
 
 public class GrxButtonPreference extends GrxBasePreference {

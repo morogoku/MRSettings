@@ -15,8 +15,8 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
 
 import java.util.Calendar;
 

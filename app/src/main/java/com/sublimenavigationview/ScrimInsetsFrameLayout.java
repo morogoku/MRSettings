@@ -27,7 +27,7 @@ import android.support.v4.view.WindowInsetsCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * Borrowed from Support Design library
  */

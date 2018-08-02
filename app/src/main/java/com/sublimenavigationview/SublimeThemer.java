@@ -28,7 +28,7 @@ import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 import android.util.TypedValue;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 /**
  * Handles details about styling {@link SublimeNavigationView}.

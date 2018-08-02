@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 
 /* 
  * Grouxho - espdroids.com - 2018	

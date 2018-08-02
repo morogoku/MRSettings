@@ -22,11 +22,11 @@ import android.content.ClipboardManager;
 import android.widget.Toast;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.utils.Common;
-import com.grx.settings.R;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.R;
 import com.qfcolorpicker.CircleColorDrawable;
-import com.grx.settings.prefs_dlgs.DlgFrGrxColorPicker;
+import com.moro.mrsettings.prefs_dlgs.DlgFrGrxColorPicker;
 
 public class GrxColorPicker extends GrxBasePreference implements DlgFrGrxColorPicker.OnGrxColorPickerListener{
 

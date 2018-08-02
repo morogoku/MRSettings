@@ -19,12 +19,12 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
 
-import com.grx.settings.prefs_dlgs.DlgFrGrxMultiAccess;
-import com.grx.settings.utils.Common;
-import com.grx.settings.utils.GrxPrefsUtils;
+import com.moro.mrsettings.prefs_dlgs.DlgFrGrxMultiAccess;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.utils.GrxPrefsUtils;
 
 import java.util.regex.Pattern;
 

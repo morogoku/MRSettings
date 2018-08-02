@@ -20,9 +20,9 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.Toast;
 
-import com.grx.settings.R;
-import com.grx.settings.prefssupport.PrefAttrsInfo;
-import com.grx.settings.utils.GrxPrefsUtils;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.prefssupport.PrefAttrsInfo;
+import com.moro.mrsettings.utils.GrxPrefsUtils;
 
 import java.util.regex.Pattern;
 

@@ -24,6 +24,6 @@
         grx:maxChoices="3"  android:icon="@drawable/demo_icon_5" grx:iconTint="?complementary_color3" grx:showSystemapps="true"/>
 
     <GrxPerAppLedPulse android:title="Defval, no limit, user apps " android:key="perapppulse_3" grx:arrowColor="?complementary_color1"
-        android:defaultValue="com.grx.settings;#ff33b5e5;1;100|com.android.settings;#ffff0000;100;500"
+        android:defaultValue="com.moro.mrsettings;#ff33b5e5;1;100|com.android.settings;#ffff0000;100;500"
         android:icon="@drawable/demo_icon_5" grx:iconTint="?complementary_color2" grx:showSystemapps="true"/>
 </PreferenceScreen>

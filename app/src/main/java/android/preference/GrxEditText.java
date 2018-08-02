@@ -17,10 +17,10 @@ import android.util.AttributeSet;
 import android.view.View;
 
 
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
-import com.grx.settings.prefs_dlgs.DlgFrEditText;
-import com.grx.settings.utils.Common;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.prefs_dlgs.DlgFrEditText;
+import com.moro.mrsettings.utils.Common;
 
 
 public class GrxEditText extends  GrxBasePreference implements DlgFrEditText.OnGrxEditTextListener{

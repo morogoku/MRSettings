@@ -24,7 +24,7 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.CheckBox;
-import com.grx.settings.R;
+import com.moro.mrsettings.R;
 /**
  * View implementation for Checkbox menu item.
  */

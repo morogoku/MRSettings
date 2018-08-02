@@ -22,11 +22,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.grx.settings.utils.Common;
-import com.grx.settings.GrxPreferenceScreen;
-import com.grx.settings.R;
-import com.grx.settings.act.GrxImagePicker;
-import com.grx.settings.utils.GrxImageHelper;
+import com.moro.mrsettings.utils.Common;
+import com.moro.mrsettings.GrxPreferenceScreen;
+import com.moro.mrsettings.R;
+import com.moro.mrsettings.act.GrxImagePicker;
+import com.moro.mrsettings.utils.GrxImageHelper;
 
 import java.io.File;
 
