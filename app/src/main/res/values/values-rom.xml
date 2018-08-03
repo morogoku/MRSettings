@@ -62,6 +62,11 @@
     <string name="togg_soundmode">Sound Mode</string>
     <string name="togg_custom">Custom Toggle</string>
 
+    <string name="sb_positions">Views Positions</string>
+    <string name="sb_positions_us">User Screen SB Views Positions</string>
+    <string name="sb_positions_ls">Lock Screen SB Views Positions</string>
+    <string name="sb_positions_help">Set main views of group of views positions and sort them out inside the selected area</string>
+
 
     <!-- String Array -->
     <string-array name="powermenu_toggle_list">
@@ -112,6 +117,54 @@
         <item>power</item>
         <item>download</item>
         <item>recovery</item>
+    </string-array>
+
+    <string-array name="sb_views_positions_options">
+        <item>Net Speed View</item>
+        <item>System Icons</item>
+        <item>Signal Cluster View</item>
+        <item>Battery and Battery Text</item>
+        <item>Clock</item>
+        <item>Two Phones Icon (only 2 sims models)</item>
+    </string-array>
+
+    <string-array name="sb_views_positions_values">
+        <item>netspeedview</item>
+        <item>statusicons</item>
+        <item>signalclusterview</item>
+        <item>batterycontainer</item>
+        <item>clock</item>
+        <item>twophones</item>
+    </string-array>
+
+    <string-array name="kgsb_views_positions_options">
+        <item>Carrier Text</item>
+        <item>Net Speed View</item>
+        <item>System Icons</item>
+        <item>Signal Cluster View</item>
+        <item>Battery and Battery Text</item>
+        <item>Two Phones Icon (only 2 sims models)</item>
+    </string-array>
+
+    <string-array name="kgsb_views_positions_values">
+        <item>carriertext</item>
+        <item>netspeedview</item>
+        <item>statusicons</item>
+        <item>signalclusterview</item>
+        <item>batterycontainer</item>
+        <item>twophones</item>
+    </string-array>
+
+    <string-array name="sb_postions_options">
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="sb_positions_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grx="http://schemas.android.com/apk/res-auto">
+    <GrxPreferenceCategory android:title="@string/sb_positions" />
+
+    <GrxPerItemSingleSelection android:title="@string/sb_positions_us" android:key="sb_viewpositions" grx:groupKey="gk_sb_viewspositions"
+        android:summary="@string/sb_positions_help" grx:allowSortOut="true"
+        android:defaultValue="netspeedview;2|statusicons;2|signalclusterview;2|batterycontainer;2|clock;2|twophones;2|"
+        grx:optionsArray="@array/sb_views_positions_options" grx:valuesArray="@array/sb_views_positions_values"
+        grx:spinnerOptionsArray="@array/sb_postions_options"  grx:spinnerValuesArray="@array/sb_positions_values"/>
+
+    <GrxPerItemSingleSelection android:title="@string/sb_positions_ls"  android:key="kgsb_viewpositions"  grx:groupKey="gk_sb_viewspositions"
+        android:summary="@string/sb_positions_help" grx:allowSortOut="true"
+        android:defaultValue="carriertext;0|netspeedview;2|statusicons;2|signalclusterview;2|batterycontainer;2|twophones;2|"
+        grx:optionsArray="@array/kgsb_views_positions_options" grx:valuesArray="@array/kgsb_views_positions_values"
+        grx:spinnerOptionsArray="@array/sb_postions_options"  grx:spinnerValuesArray="@array/sb_positions_values" />
+
+</PreferenceScreen>
