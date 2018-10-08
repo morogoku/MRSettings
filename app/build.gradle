@@ -9,8 +9,8 @@ android {
         applicationId 'com.moro.mrsettings'
         minSdkVersion 22
         targetSdkVersion 22
-        versionCode 201
-        versionName "0.1"
+        versionCode 202
+        versionName "0.2"
     }
 
     repositories {
