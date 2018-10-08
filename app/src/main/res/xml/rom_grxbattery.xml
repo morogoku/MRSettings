@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grx="http://schemas.android.com/apk/res-auto">
+
+    <GrxSwitchPreference android:title="@string/enable_grxbat" android:defaultValue="false" android:key="grxbat_enabled" grx:groupKey="gk_grxbat" />
+
+    <GrxButtonPreference android:title="" android:key="rkbutton0"   grx:button_Style="big" android:dependency="grxbat_enabled"
+        grx:button_Text="@string/press_to_apply" grx:button_backgroundColor="?complementary_color3" grx:groupKey="gk_grxbat" />
+
+    <GrxPreferenceCategory android:title="@string/grx_circular_battery" android:dependency="grxbat_enabled"/>
+    <GrxCheckBoxPreference android:title="@string/thin_circular" android:dependency="grxbat_enabled" android:defaultValue="false" android:key="grxbat_thin"/>
+    <GrxCheckBoxPreference android:title="@string/bold_text" android:dependency="grxbat_enabled"  android:defaultValue="true" android:key="grxbat_bold"/>
+    <GrxSeekBar android:title="@string/select_size" android:dependency="grxbat_enabled"  android:key="grxbat_size"
+        android:defaultValue="30" grx:minValue="15" grx:maxValue="30" grx:units=" dp" grx:showPopup="true" grx:interval="1"/>
+
+    <GrxPreferenceCategory android:title="@string/colors_in_home" android:dependency="grxbat_enabled"  />
+
+
+    <GrxPerItemColor
+        android:title="@string/colors_dark_bg" android:key="grxbat_db_colors" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/grxbat_colors_options" grx:valuesArray="@array/grxbat_colors_values"
+        android:defaultValue="grxbat/-1|grxbatframe/1627389951|grxbattext/-1|"
+        android:dependency="grxbat_enabled"
+        />
+
+    <GrxPerItemColor
+        android:title="@string/colors_light_bg" android:key="grxbat_lb_colors" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/grxbat_colors_options" grx:valuesArray="@array/grxbat_colors_values"
+        android:defaultValue="grxbat/-13421773|grxbatframe/808661811|grxbattext/-13421773|"
+        android:dependency="grxbat_enabled"
+        />
+
+
+    <GrxPreferenceCategory android:title="@string/colors_in_ls" android:dependency="grxbat_enabled"  />
+
+
+    <GrxPerItemColor
+        android:title="@string/colors_dark_bg" android:key="grxbat_db_ls_colors" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/grxbat_colors_options" grx:valuesArray="@array/grxbat_colors_values"
+        android:defaultValue="grxbat/-1|grxbatframe/1627389951|grxbattext/-1|"
+        android:dependency="grxbat_enabled"
+        />
+
+    <GrxPerItemColor
+        android:title="@string/colors_light_bg" android:key="grxbat_lb_ls_colors" grx:arrowColor="?complementary_color3"
+        grx:optionsArray="@array/grxbat_colors_options" grx:valuesArray="@array/grxbat_colors_values"
+        android:defaultValue="grxbat/-13421773|grxbatframe/808661811|grxbattext/-13421773|"
+        android:dependency="grxbat_enabled"
+        />
+
+
+
+    <GrxButtonPreference android:title="" android:key="rkbutton0"   grx:button_Style="big" android:dependency="grxbat_enabled"
+        grx:button_Text="@string/press_to_apply" grx:button_backgroundColor="?complementary_color3" grx:groupKey="gk_grxbat" />
+
+</PreferenceScreen>
